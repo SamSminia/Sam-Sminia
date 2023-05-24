@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+ 
+}
+.kolom1{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  align-content: center;
+ padding-top: 1%;
+ padding-bottom: 1%;
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color: #567CAB;
+ position: relative;
+ top: 60px;
+ color: white;
+
+
+
+  
+}
+.wiebeniktitel{
+  color: #0F2441;
+  font-weight: 900;
+}
+.poppetjefoto{
+  width:100%;
+  margin-bottom: -0.8%;
+}
+
+.kolom2{
+  display: grid;
+  grid-template-columns: 70% 30%;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 150px;
+  align-items: center;
+}
+
+.portretfoto {
+  width: 100%;
+}
+.textwiebenik{
+padding-right: 20%;
+}
+
+.kolom3{
+  background-color: white;
+  display: grid;
+  grid-template-columns: 30%70%;
+  
+  padding: 0 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+  
+ 
+
+}
+
+.foto-webdesign {
+  display: flex;
+  justify-content: center;
+}
+.fotzelfwebdesign{
+  width: 100%;
+  margin-left: -20%
+}
+.kolom4 {
+  display: grid;
+  grid-template-columns: 50%50%;
+  padding-left: 20%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  align-items: center;
+  background-color: #93B3DA;
+
+}
+.animatietekst{
+  padding-right: 20%;
+}
+.binnenkantfabriekfoto {
+  width: 100%;
+
+  
+ 
+}
+.kolom5{
+  display: grid;
+  grid-template-columns: 70% 30%;
+  padding: 0 20%;
+  margin: 5% 0;
+  align-items: center;
+}
+.kolom6 {
+  display: grid;
+  grid-template-columns: 30%70%;
+padding: 5% 20% 0% 20%;
+align-items: center;
+}
+.logoadverteren{
+  width: 100%;
+ 
+}
+.tekstonlineadverteren{
+  padding-left: 10%;
+}
+
+
+
+@media (max-width:767px) {
+.kolom1, .kolom2, .kolom3, .kolom4, .kolom5 {
+  grid-template-columns: 100%;
+align-items: left;
+padding: 0 10%;
+
+}
+h1{
+  padding: 10% 0;
+}
+.poppetjefoto{
+  align-self: left;
+  margin-left: -10%;
+}
+.kolom2{
+  padding-top: 20%;
+  
+}
+.textwiebenik{
+  padding-right: 0;
+  margin-bottom: 10%;
+}
+.portretfoto{
+  width: 60%;
+}
+.foto-webdesign{
+  display: none;
+}
+.tekstwebdesign{
+  padding: 10% 0;
+}
+.kolom3{
+  background-color: #93B3DA;
+}
+.kolom4{
+  background-color: white;
+}
+.animatietekst{
+  padding-top:5%;
+  padding-right: 0;
+}
+.animatieplaatje{
+  margin-right: -10%;
+}
+.kolom5{
+padding-bottom: 0%;
+}
+.kolom6{
+display: flex;
+flex-direction: column-reverse;
+padding-right: 10%;
+padding-left: 0;
+}
+.raketplaatje{
+  width: 60%;
+}
+
+}
