@@ -1,0 +1,218 @@
+
+
+.kolom-1 {
+  margin-top: 60px;
+ display: grid;
+ grid-template-columns: 50% 50%;
+ background-color: #567CAB;
+ padding-right: 15%;
+ padding-left: 15%;
+ align-items: center;
+ padding-bottom: 3%;
+ padding-top: 3%;
+}
+
+.header-foto {
+width: 100%
+}
+
+.eerst-zin {
+font-weight: 700;
+font-size: 50px;
+color: white;
+
+
+}
+.naam {
+font-weight: 900;
+line-height: 90%;
+color: #0F2441;
+
+}
+.eerste-kopje{
+font-size: 24px;
+color: #0F2441;
+}
+.header-button {
+margin-top: 3%;
+font-size: 16px;
+font-family: lato;
+color: white;
+background-color: #0F2441;
+border: 0;
+padding: 10px 20px;
+border-radius: 10px;
+transition: all 0.3s;
+}
+.header-button:hover{
+  background-color: white;
+  color: #0F2441;
+  cursor: pointer;
+}
+
+/*header met foto*/
+
+.kolom-2 {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  align-items: center;
+  padding-bottom: 5%;
+ 
+  
+}
+
+.portret-foto {
+width: 80%;
+}
+
+
+.wie-ben-ik-button{
+  margin-top: 3%;
+  font-size: 16px;
+  font-family: lato;
+  color: white;
+  background-color: #0F2441;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.wie-ben-ik-button:hover {
+  background-color: #567CAB;
+  cursor: pointer;
+}
+
+.kolom-3 {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+ padding-bottom: 5%;
+ 
+  
+  background-color: rgba(86, 124, 171, 0.15);
+}
+.projecten-title {
+  text-align: center;
+background-color: rgba(86, 124, 171, 0.15);
+padding-top: 3%;
+}
+
+.project-image {
+  position: relative;
+  display: column;
+  width: 100%;
+  margin-top: -10%;
+  
+  
+}
+.foto-zelf {
+  display: flex;
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  
+}
+
+.image-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(86, 124, 171, 0.6);
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+opacity: 0;
+transition: opacity 0.4s; 
+}
+.image-overlay:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+.image-title{
+  font-family: lato;
+  font-weight: 900;
+  font-size: 35px;
+  color: white;
+}
+
+.desription{
+  color: white;
+  margin-top: 0.25em;
+}
+
+
+
+/* max screen grootte tot 14 inch*/
+
+@media (max-width:840px) {
+
+  .kolom-3 {
+   
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .eerste-kopje{
+    font-size: 15px;
+  }
+  .header-button{
+    font-size: 12px;
+  }
+  .wie-ben-ik-button{font-size: 12px;}
+  .image-overlay{
+    opacity: 1;
+    
+  }
+  .image-title{
+    font-size: 25px;
+  }
+  .desription{
+    font-size: 16px;
+  }
+}
+
+@media (max-width:500px){
+
+.project-image{
+  margin-top: 0;
+}
+
+.kolom-1 {
+  grid-template-columns: 100%;
+  padding: 0 10%;
+  
+}
+.kolom-2 {
+  grid-template-columns: 100%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.kolom-3 {
+  grid-template-columns: 100%;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-bottom: 10%;
+}
+.ik-ben-sam-h2{
+  font-size: 40px;
+}
+.naam{
+  font-size: 40px;
+}
+.projecten-title{ 
+  font-size: 40px;
+}
+
+}
