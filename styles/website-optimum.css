@@ -1,0 +1,93 @@
+.kolom1{
+  width: 100%;
+  margin-top: 60px;
+}
+.headerfoto{
+  width: 100%;
+}
+.kolom2{
+  display: grid;
+  grid-template-columns: 70%30%;
+  padding: 5% 15%;
+}
+h1{
+  
+  color: #0F2441;
+  line-height: 100%;
+}
+.foto1{
+  width: 100%;
+}
+.teksbegin{
+  padding-right: 15%;
+}
+b{
+  color: #1f96a2;
+}
+.kolom3{
+  padding: 5% 15%;
+  display: grid;
+  grid-template-columns: 30%70%;
+  align-items: center;
+  vertical-align: center;
+  background-color: #93B3DA;
+
+}
+.icon{
+  width: 60%;
+}
+.kolom4{
+  padding: 5% 15%;
+  display: grid;
+  grid-template-columns: 80%30%;
+  align-items: center;
+}
+.webtekst{
+  padding-right: 10%;
+}
+.optimumicon{
+  width: 50%;
+}
+.kolom5{
+  padding: 5% 15%;
+  display: grid;
+  grid-template-columns:50% 50% ;
+  align-items: center;
+}
+.footerb{
+  color: white;
+ 
+}
+.fotoforbo{
+  width: 90%;
+  margin-right: 10%;
+  border-radius: 5%;
+}
+@media (max-width:890px){
+   .kolom2, .kolom3, .kolom4, .kolom5{
+    padding: 10% 10%;
+    grid-template-columns: 100%;
+  }
+  .teksbegin{
+    padding: 0;
+  }
+  .kolom3{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  img {
+    padding-top: 10%;
+  }
+  .foto1{
+    width: 80%;
+  }
+  .headerfoto{
+    padding: 0;
+  }
+  .logo{
+    padding: 0;
+  }
+  h2,h1{
+    font-size: 40px;
+  }
+}
