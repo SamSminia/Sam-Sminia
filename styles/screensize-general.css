@@ -1,0 +1,115 @@
+@media screen and (max-width: 1280px) {
+    h1{
+      font-size: 50pt;
+    }
+    
+    .subtitel{
+        font-size: 17pt;
+        margin-top: -7%;
+    }
+    
+    p{
+      font-size: 13;
+    }
+    h2{
+        font-size: 35pt;
+    }
+    .contactformulier{
+        margin: 5% 5%;
+    }}
+
+
+
+    @media screen and (max-width: 1024px){
+
+        h1{
+            font-size: 45pt;
+            line-height: 50pt;
+        }
+        p{
+            font-size: 12pt;
+        }
+        .subtitel{
+            font-size: 16pt;
+        }
+
+        h2{
+            font-size: 30pt;
+        }
+    .paragraaf1{
+        margin-top: -6%;
+    
+      }
+    h3{
+        font-size: 
+        14pt;
+    }
+    .box{
+        font-size: 12pt;
+    }
+    .contacxttitel{
+        font-size: 30pt;
+    }
+    .verzendknop{
+        font-size: 12pt;
+    }
+
+
+    }
+
+
+
+    @media screen and (max-width: 768px){
+
+        .subtitel{
+            margin-top: -5%;
+        }
+        h2{
+            margin-bottom: 7%;
+        }
+        h5{
+            margin-bottom: -3%;
+        }
+        p{
+            font-size: 14pt;
+        }
+        .contacxttitel{
+            font-size: 20pt;
+            margin-bottom: 5%;
+        }
+        .box{
+            font-size: 12pt;
+        }
+        .menuitem{
+            padding-right: 35px;
+        }
+    }
+
+    @media screen and (max-width: 480px){
+        .subtitel{
+            font-size: 14pt;
+            
+        }
+        h1{
+            margin-bottom: 5%;
+        }
+        h3{
+            font-size:16pt;
+    
+            
+        }
+        h4{
+            font-size: 14pt;
+        }
+        .verzendknop{
+            font-size: 12pt;
+        }
+    }
+    @media screen and (max-width: 386px){
+h5{
+    font-size: 12pt;
+}
+.menuitem{
+ padding-right: 15px;
+}
+    }

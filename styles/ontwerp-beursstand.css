@@ -1,0 +1,16 @@
+.kolom1{
+    margin: 5% 10%;
+}
+.fotosbeurs{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.foto{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .fotosbeurs{
+        grid-template-columns: 100%;
+    }
+}
