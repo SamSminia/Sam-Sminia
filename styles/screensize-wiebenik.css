@@ -5,10 +5,14 @@ margin-top: -6%;
 }
 
 @media screen and (max-width: 768px) {
-.kolom1, .kolom2, .kolom3, .kolom4{
+.kolom1, .kolom2, .kolom4{
     grid-template-columns: 100%;
     margin: 10% 5%;
 }
+    .kolom3{
+     grid-template-columns: 100%;
+        margin: 5% 0% 5% 5%;
+    }
 
 .kolom2{
     display: flex;
