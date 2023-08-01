@@ -1,0 +1,40 @@
+@media screen and (max-width: 1280px){
+    .paragraaf1, .paragraaf2, .paragraaf3, .paragraaf4{
+margin-top: -6%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+.kolom1, .kolom2, .kolom3, .kolom4{
+    grid-template-columns: 100%;
+    margin: 10% 5%;
+}
+
+.kolom2{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.kolom{
+    margin: 10% 5%;
+    grid-template-columns: 100%;
+}
+.img-header{
+    display: none;
+}
+.kolom4{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.kolom4{
+    align-items: left;
+}
+}
+
+@media screen and (max-width: 480px){
+  .kolom{
+    margin-top: 20%;
+  }  
+  .kolom3{
+  margin-right: 0;
+  }
+}

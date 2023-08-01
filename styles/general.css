@@ -1,0 +1,116 @@
+h1, h2, h3, h4, h5, h6, p{
+  font-family: montserrat;
+  color: white;
+}
+a{
+text-decoration: none;
+padding: 0;
+}
+h1{
+  font-size: 55pt;
+}
+h2{
+  font-size: 40pt;
+ 
+}
+h4{
+  font-size: 16pt;
+}
+p{
+  font-size: 14pt;
+  line-height: 20pt;
+  
+}
+h5{
+  color: #299DF4;
+  font-size: 14pt;
+  line-height: 0;
+  margin-bottom: -4%;
+}
+body{
+margin: 0;
+background-color: #0D2237;
+}
+
+.header-kolom{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  height: 80px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  align-items: center;
+  background-color: #0D2237;
+  z-index: 1000;
+}
+.header-logo{
+  width: 80px;
+  
+  
+}
+.header-text{
+  display: flex;
+  color: white;
+}
+
+.menuitem{
+padding-right: 70px;
+}
+
+.contactformulier{
+  color: white;
+  font-family: montserrat;
+  font-size: 14pt;
+  display: grid;
+  
+  margin: 5% 10%;
+  align-items: center;
+  }
+  
+  .box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+   
+  }
+  
+  .textarea{
+    width: 100%;
+   padding: 7px 0px;
+   
+  }
+  .foto4{
+    width: 90%;
+    padding-left: 3%;
+  }
+  .contacxttitel{
+  font-size: 35pt;
+  margin-right: 10%;
+  }
+  
+  .neemcontactop{
+    color:#299DF4
+  }
+  .verzendknop{
+    border: none;
+    background-color: #299DF4;
+    color: #0D2237;
+    border-radius: 12px;
+    font-size: 12pt;
+    padding: 12px 40px;
+    font-size: montserrat;
+    cursor: pointer;
+    transition: all 0.2s;
+  
+  }
+  
+  .verzendknop:hover{
+    background-color: #D0EFFF;
+  
+  }
+
+
+
+
+  
