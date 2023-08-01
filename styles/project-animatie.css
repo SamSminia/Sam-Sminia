@@ -1,5 +1,6 @@
 .header-foto{
 display: flex;
+    margin-top: 80px;
 }
 .foto1{
     width: 100%;
